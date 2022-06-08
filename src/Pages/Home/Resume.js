@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Services = () => {
+const Resume = () => {
     return (
         <div>
-            <h2>services</h2>
+            <h2>resume</h2>
         </div>
     );
 };
 
-export default Services;
+export default Resume;
