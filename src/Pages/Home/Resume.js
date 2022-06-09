@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Button from '../Shared/Button';
 
 const Resume = () => {
@@ -114,7 +115,7 @@ const Resume = () => {
                 </div>
             </div>
             <div className='flex justify-center py-2'>
-                <Button>download as pdf</Button>
+                <NavLink to='/'><Button>download as pdf</Button></NavLink>
             </div>
         </div>
     );
