@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Button from '../Shared/Button';
 import Banner from './Banner';
 import Portfolio from './Portfolio';
@@ -15,7 +16,9 @@ const Home = () => {
             <Portfolio></Portfolio>
             <Testmonial></Testmonial>
             <Services></Services>
-            <Button>Contact us</Button>
+            <div className='flex justify-center'>
+                <NavLink to='/contact'> <Button>Contact us</Button></NavLink>
+            </div>
         </div>
     );
 };

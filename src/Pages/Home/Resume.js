@@ -115,7 +115,8 @@ const Resume = () => {
                 </div>
             </div>
             <div className='flex justify-center py-2'>
-                <NavLink to='/'><Button>download as pdf</Button></NavLink>
+                <a href="https://drive.google.com/file/d/17MfIlNAtOf5dZYTJZtQozWQ--iXafS62/view?usp=sharing"><Button>download as pdf</Button></a>
+
             </div>
         </div>
     );

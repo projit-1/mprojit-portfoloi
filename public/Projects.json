@@ -3,18 +3,18 @@
         "_id": 1,
         "image": "https://i.ibb.co/NChT3G8/motorsmanufac.jpg",
         "name": "NS Motors Bangladesh Ltd.",
-        "description": "manufacturing website"
+        "description": "This manufacturing website where users can create orders and Admin can add a user as an admin to add/remove products, can manage all orders. "
     },
     {
         "_id": 2,
         "image": "https://i.ibb.co/n0HZGhJ/warhose.jpg",
         "name": "NS Electronics Khulna",
-        "description": "Warhouse management"
+        "description": "A complete inventory management website with Google login and email password login feature. Login and sign up to ensure authorized users can order products on this site. "
     },
     {
         "_id": 3,
         "image": "https://i.ibb.co/HTTrMBc/carhut.jpg",
         "name": "Khulna Car Hat",
-        "description": "producer reviowes website"
+        "description": "This site is designed for reviewers on using cars with star ratings. It is only frontend base site.  "
     }
 ]
