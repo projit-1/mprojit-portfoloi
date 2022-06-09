@@ -1,29 +1,34 @@
 import React from 'react';
+import banner01 from '../../images/banner01.jpg'
+import banner02 from '../../images/banner02.jpg'
+import banner03 from '../../images/banner03.jpg'
+import banner04 from '../../images/banner04.jpg'
+import banner05 from '../../images/banner05.jpg'
 
 const Banner = () => {
     return (
-        <div class="carousel rounded-box">
+        <div class="carousel ">
             <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=8B7BCDC2" alt="Burger" />
+                <img src={banner01} alt="banner01" />
             </div>
+
             <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=500B67FB" alt="Burger" />
+                <img src={banner02} alt="banner02" />
             </div>
+
             <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=A89D0DE6" alt="Burger" />
+                <img src={banner03} alt="banner03" />
             </div>
+
             <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=225E6693" alt="Burger" />
+                <img src={banner04} alt="banner04" />
             </div>
+
             <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=9D9539E7" alt="Burger" />
+                <img src={banner05} alt="banner05" />
             </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=BDC01094" alt="Burger" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/burger?w=400&h=300&hash=7F5AE56A" alt="Burger" />
-            </div>
+
+
         </div>
     );
 };
