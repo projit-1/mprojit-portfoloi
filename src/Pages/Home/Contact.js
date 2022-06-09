@@ -3,10 +3,7 @@ import emailjs from '@emailjs/browser';
 import Button from '../Shared/Button';
 
 const Contact = () => {
-
-    // export const ContactUs = () => {
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -20,17 +17,16 @@ const Contact = () => {
 
 
     return (
-        <div className='mx-20 '>
+        <div className='mx-24 items-center '>
             <h2 className='text-2xl text-center my-5'>Contact Me</h2>
             <form ref={form} onSubmit={sendEmail}>
-
                 <div class="form-control ">
                     <label>Name</label>
-                    <input className=' input w-full max-w-md ' type='text' name="name" placeholder='your name'></input>
+                    <input className=' input ' type='text' name="name" placeholder='your name'></input>
                     <label>Email</label>
-                    <input className=' input w-full max-w-md' type='email' name="user_email" placeholder='type your email'></input>
+                    <input className=' input ' type='email' name="user_email" placeholder='type your email'></input>
                     <label>Message</label>
-                    <textarea className=' input w-full max-w-md' type='text' name="message" placeholder='type your message' id='' rows={5}></textarea>
+                    <textarea className=' input ' type='text' name="message" placeholder='type your message' id='' rows={6}></textarea>
                 </div>
                 <div className='flex justify-center my-3'>
                     <Button>Submit</Button>

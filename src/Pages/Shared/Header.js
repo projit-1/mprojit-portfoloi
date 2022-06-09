@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-300">
+        <div className="navbar bg-slate-300 sticky top-0">
             <div className="flex-1">
                 <NavLink className="btn btn-ghost normal-case text-xl" to='/'>M. Projit</NavLink>
             </div>

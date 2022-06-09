@@ -4,7 +4,7 @@ import Button from '../Shared/Button';
 
 const Resume = () => {
     return (
-        <div className='mx-5 bg-base-100 px-5'>
+        <div className='mx-5 bg-slate-300 px-5'>
             <h2 className='text-center text-3xl my-2'>Resume</h2>
             <div className="grid grid-cols-2 justify-items-center my-2 ">
                 <div>

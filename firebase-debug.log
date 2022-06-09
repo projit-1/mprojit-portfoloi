@@ -1,0 +1,86 @@
+[debug] [2022-06-09T20:25:56.369Z] ----------------------------------------------------------------------
+[debug] [2022-06-09T20:25:56.372Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PROJIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-09T20:25:56.373Z] CLI Version:   11.0.1
+[debug] [2022-06-09T20:25:56.373Z] Platform:      win32
+[debug] [2022-06-09T20:25:56.373Z] Node Version:  v16.15.0
+[debug] [2022-06-09T20:25:56.374Z] Time:          Fri Jun 10 2022 02:25:56 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-06-09T20:25:56.375Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-09T20:25:56.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-09T20:25:56.470Z] > authorizing via signed-in user (projitmondol@gmail.com)
+[debug] [2022-06-09T20:25:56.471Z] [iam] checking project mprojit-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-09T20:25:56.474Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions [none]
+[debug] [2022-06-09T20:25:56.474Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-09T20:25:57.827Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions 200
+[debug] [2022-06-09T20:25:57.828Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-09T20:25:57.831Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio [none]
+[debug] [2022-06-09T20:25:58.651Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio 200
+[debug] [2022-06-09T20:25:58.652Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio {"projectId":"mprojit-portfolio","projectNumber":"394243803483","displayName":"mprojit-portfolio","name":"projects/mprojit-portfolio","resources":{"hostingSite":"mprojit-portfolio"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'mprojit-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-09T20:25:58.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio [none]
+[debug] [2022-06-09T20:25:59.379Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio 200
+[debug] [2022-06-09T20:25:59.379Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio {"projectId":"mprojit-portfolio","projectNumber":"394243803483","displayName":"mprojit-portfolio","name":"projects/mprojit-portfolio","resources":{"hostingSite":"mprojit-portfolio"},"state":"ACTIVE"}
+[debug] [2022-06-09T20:25:59.385Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions [none]
+[debug] [2022-06-09T20:25:59.385Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-09T20:26:01.058Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions 500
+[debug] [2022-06-09T20:26:01.059Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-06-09T20:26:01.279Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
+[debug] [2022-06-09T20:26:58.564Z] ----------------------------------------------------------------------
+[debug] [2022-06-09T20:26:58.567Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PROJIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-09T20:26:58.568Z] CLI Version:   11.0.1
+[debug] [2022-06-09T20:26:58.568Z] Platform:      win32
+[debug] [2022-06-09T20:26:58.568Z] Node Version:  v16.15.0
+[debug] [2022-06-09T20:26:58.569Z] Time:          Fri Jun 10 2022 02:26:58 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-06-09T20:26:58.570Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-09T20:26:58.666Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-09T20:26:58.667Z] > authorizing via signed-in user (projitmondol@gmail.com)
+[debug] [2022-06-09T20:26:58.667Z] [iam] checking project mprojit-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-09T20:26:58.670Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions [none]
+[debug] [2022-06-09T20:26:58.671Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-09T20:27:00.054Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions 200
+[debug] [2022-06-09T20:27:00.055Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mprojit-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-09T20:27:00.057Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio [none]
+[debug] [2022-06-09T20:27:00.735Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio 200
+[debug] [2022-06-09T20:27:00.735Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio {"projectId":"mprojit-portfolio","projectNumber":"394243803483","displayName":"mprojit-portfolio","name":"projects/mprojit-portfolio","resources":{"hostingSite":"mprojit-portfolio"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'mprojit-portfolio'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-09T20:27:00.743Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio [none]
+[debug] [2022-06-09T20:27:01.440Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio 200
+[debug] [2022-06-09T20:27:01.440Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mprojit-portfolio {"projectId":"mprojit-portfolio","projectNumber":"394243803483","displayName":"mprojit-portfolio","name":"projects/mprojit-portfolio","resources":{"hostingSite":"mprojit-portfolio"},"state":"ACTIVE"}
+[debug] [2022-06-09T20:27:01.448Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions [none]
+[debug] [2022-06-09T20:27:01.448Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-09T20:27:03.291Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions 500
+[debug] [2022-06-09T20:27:03.291Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/394243803483/sites/mprojit-portfolio/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-06-09T20:27:05.175Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}

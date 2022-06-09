@@ -10,7 +10,7 @@ const Project = ({ project }) => {
                 <div class="card-body">
                     <h2 class="card-title">{name}</h2>
                     <p>{description}</p>
-                    <div className=" flex justify-center">
+                    <div className=" flex justify-center items-center">
                         <Button>Details</Button>
                     </div>
                 </div>
