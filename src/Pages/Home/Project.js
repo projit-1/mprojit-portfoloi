@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Button from '../Shared/Button'
 
 const Project = ({ project }) => {
@@ -11,7 +12,7 @@ const Project = ({ project }) => {
                     <h2 class="card-title">{name}</h2>
                     <p>{description}</p>
                     <div className=" flex justify-center items-center">
-                        <Button>Details</Button>
+                        <NavLink to='/warhouse'> <Button>Details</Button></NavLink>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Button from '../Shared/Button';
 import Project from './Project';
 
 const Portfolio = ({ project }) => {
@@ -19,6 +20,7 @@ const Portfolio = ({ project }) => {
                     ></Project>)
                 }
             </div>
+
         </div>
     );
 };
