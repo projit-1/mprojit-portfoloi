@@ -11,13 +11,13 @@ import Testmonial from './Testmonial';
 
 const Home = () => {
     return (
-        <div>
+        <div className='my-5'>
             <Banner></Banner>
             <Portfolio></Portfolio>
-            <Testmonial></Testmonial>
-            <Services></Services>
+            {/* <Testmonial></Testmonial>
+            <Services></Services> */}
             <div className='flex justify-center'>
-                <NavLink to='/contact'> <Button>Contact us</Button></NavLink>
+                {/* <NavLink to='/contact'> <Button>Contact us</Button></NavLink> */}
             </div>
         </div>
     );

@@ -10,14 +10,17 @@ const Contact = () => {
         emailjs.sendForm('service_e3rcv7l', 'template_jhrm1oo', form.current, '4vZ6bs3RR_RFIFfpV')
             .then((result) => {
                 console.log(result.text);
+                console.log("Message send");
+
             }, (error) => {
                 console.log(error.text);
             });
+        e.target.reset();
     };
 
 
     return (
-        <div className='mx-24 items-center '>
+        <div className='mx-24  items-center my-20'>
             <h2 className='text-2xl text-center my-5'>Contact Me</h2>
             <form ref={form} onSubmit={sendEmail}>
                 <div class="form-control ">
