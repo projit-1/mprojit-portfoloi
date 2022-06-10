@@ -1,7 +1,7 @@
 import React from 'react';
 import img1 from '../images/manufac1.png'
-import img2 from '../images/manufac2 .png'
-import img3 from '../images/manufac3 .png'
+import img2 from '../images/manufac2.png'
+import img3 from '../images/manufac3.png'
 
 
 const Manufacture = () => {
@@ -12,7 +12,27 @@ const Manufacture = () => {
                 <img className='cursor-pointer hover:scale-105 ease-in-out duration-300' src={img1} alt="" />
                 <img className='cursor-pointer hover:scale-105 ease-in-out duration-300' src={img2} alt="" />
                 <img className='cursor-pointer hover:scale-105 ease-in-out duration-300' src={img3} alt="" />
+            </div>
+            <div className="detail grid  grid-cols-1 lg:grid-cols-2 gap-5 my-5">
+                <div className="description my-2">
+                    <p className='my-2'>
+                        • This manufacturing website where users can create orders and Admin can add a user as an admin to add/remove products, can manage all orders.
+                    </p>
+                    <p className='my-2'>
+                        • Login and sign up to ensure authorized users can order products on this site.
+                    </p>
+                    <p className='my-2'>
+                        • Technology Used:
+                        HTML, CSS, tailwind, daisyUI, React.js, React Router, Firebase. Express, MongoDB, JWT.
+                    </p>
+                </div>
 
+                <div className="my-2 text-center text-xl">
+                    <p className='my-2 text-lg font-bold'>Links</p>
+                    <a href="  https://ns-motors-bangladesh-ltd.web.app/"><p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>LiveSiteLink </p></a>
+                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p>
+                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>BackendCode</p>
+                </div>
             </div>
         </div>
 

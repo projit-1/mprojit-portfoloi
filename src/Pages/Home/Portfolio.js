@@ -19,7 +19,7 @@ const Portfolio = () => {
                     <figure> <img src={image01} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">NS Motors Bangladesh Ltd.</h2>
-                        <p>This manufacturing website where users can create orders and Admin can add a user as an admin to add/remove products, can manage all orders.</p>
+                        <p className='text-justify'>This manufacturing website where users can create orders and Admin can add a user as an admin to add/remove products, can manage all orders.</p>
                         <div className=" flex justify-center items-center">
                             <NavLink to='/manufacture'> <Button>Details</Button></NavLink>
                         </div>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                     <figure> <img src={image02} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">NS Electronics Khulna</h2>
-                        <p>A complete inventory management website with Google login and email password login feature. Login and sign up to ensure authorized users can order products on this site.</p>
+                        <p className='text-justify'>A complete inventory management website with Google login and email password login feature. Login and sign up to ensure authorized users can order products on this site.</p>
                         <div className=" flex justify-center items-center">
                             <NavLink to='/warhouse'> <Button>Details</Button></NavLink>
                         </div>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     <figure> <img src={image03} alt="" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Khulna Car Hat</h2>
-                        <p>This site is designed for reviewers on using cars with star ratings. It is only frontend base site. Technologies are, Bootstrap, React, React Router, and Vanilla JS.</p>
+                        <p className='text-justify'>This site is designed for reviewers on using cars with star ratings. It is only frontend base site. Technologies are, Bootstrap, React, React Router, and Vanilla JS.</p>
                         <div className=" flex justify-center items-center">
                             <NavLink to='/carhat'> <Button>Details</Button></NavLink>
                         </div>
