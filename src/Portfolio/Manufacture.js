@@ -15,6 +15,9 @@ const Manufacture = () => {
             </div>
             <div className="detail grid  grid-cols-1 lg:grid-cols-2 gap-5 my-5">
                 <div className="description my-2">
+                    <p className='my-2 text-lg text-center font-bold'>
+                        Projects Details
+                    </p>
                     <p className='my-2'>
                         • This manufacturing website where users can create orders and Admin can add a user as an admin to add/remove products, can manage all orders.
                     </p>
@@ -30,8 +33,9 @@ const Manufacture = () => {
                 <div className="my-2 text-center text-xl">
                     <p className='my-2 text-lg font-bold'>Links</p>
                     <a href="  https://ns-motors-bangladesh-ltd.web.app/"><p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>LiveSiteLink </p></a>
-                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p>
-                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>BackendCode</p>
+                    <a href="https://github.com/projit-1/projects-manufacturer-client"> <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p></a>
+                    <a href="https://github.com/projit-1/projects-manufacturer-server"> <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>BackendCode</p></a>
+
                 </div>
             </div>
         </div>

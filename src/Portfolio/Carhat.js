@@ -13,6 +13,9 @@ const Carhat = () => {
             </div>
             <div className="detail grid  grid-cols-1 lg:grid-cols-2 gap-5 my-5">
                 <div className="description my-2">
+                    <p className='my-2 text-lg text-center font-bold'>
+                        Projects Details
+                    </p>
                     <p className='my-2'>
                         • This site is designed for reviewers on using cars with star ratings.
                     </p>
@@ -27,7 +30,8 @@ const Carhat = () => {
                 <div className="my-2 text-center text-xl">
                     <p className='my-2 text-lg font-bold' >Links</p>
                     <a href="https://assignment-09-khulna-car-hat-product-review.netlify.app/home"><p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>LiveSiteLink </p></a>
-                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p>
+                    <a href="https://github.com/projit-1/projects-product-anlysis"><p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p></a>
+
                 </div>
             </div>
         </div>

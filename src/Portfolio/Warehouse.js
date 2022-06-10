@@ -31,8 +31,9 @@ const Warehouse = () => {
                 <div className="my-2 text-center text-xl">
                     <p className='my-2 text-lg font-bold'>Links</p>
                     <a href="  https://ns-electronics-khulna.web.app/">  <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'>LiveSiteLink </p></a>
-                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p>
-                    <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> BackendCode</p>
+                    <a href="https://github.com/projit-1/projects-warhouse-client"><p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> FrontendCode</p></a>
+                    <a href="https://github.com/projit-1/projects-warhouse-server"> <p className='my-2 cursor-pointer hover:scale-105 ease-in-out duration-300'> BackendCode</p></a>
+
                 </div>
             </div>
         </div>
